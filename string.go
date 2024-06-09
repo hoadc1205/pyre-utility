@@ -1,5 +1,6 @@
 package utility
 
+
 func ValidatePointerString(value *string) bool {
 	if value == nil || *value == "" {
 		return false
